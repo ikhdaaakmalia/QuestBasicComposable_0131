@@ -58,7 +58,8 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         Text(text = "IKHDA AKMALIA PUTRI",
             style = TextStyle (fontSize = 15.sp,
                 color = androidx.compose.ui.graphics.Color.Red))
-        Text(text = "20220140131")
+        Text(text = "20220140131",
+            style = TextStyle(fontSize = 30.sp))
     }
 }
 
