@@ -55,7 +55,8 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         Text(text = "Nama :",
             style = TextStyle(fontSize = 20.sp,
                 fontWeight = FontWeight.Bold))
-        Text(text = "IKHDA AKMALIA PUTRI")
+        Text(text = "IKHDA AKMALIA PUTRI",
+            style = TextStyle (fontSize = 15.sp)
     }
 }
 
