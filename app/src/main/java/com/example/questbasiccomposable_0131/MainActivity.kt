@@ -45,6 +45,6 @@ fun BasicLayout(modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     QuestBasicComposable_0131Theme {
-        Greeting("Android")
+        BasicLayout()
     }
 }
