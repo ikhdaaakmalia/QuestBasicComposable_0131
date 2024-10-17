@@ -53,7 +53,8 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         Image(painter = painterResource(id = R.drawable.umy), contentDescription = null,
             modifier = Modifier.padding(top = 30.dp). size(150.dp))
         Text(text = "Nama :",
-            style = TextStyle(fontSize = 20.sp)
+            style = TextStyle(fontSize = 20.sp,
+                fontWeight = FontWeight.Bold))
     }
 }
 
