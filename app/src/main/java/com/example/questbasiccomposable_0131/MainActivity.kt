@@ -60,6 +60,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
                 color = androidx.compose.ui.graphics.Color.Red))
         Text(text = "20220140131",
             style = TextStyle(fontSize = 30.sp))
+        Image(painter = painterResource(id = R.drawable.ak))
     }
 }
 
