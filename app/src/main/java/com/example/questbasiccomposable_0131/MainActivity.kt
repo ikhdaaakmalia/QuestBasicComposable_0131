@@ -14,6 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import com.example.questbasiccomposable_0131.ui.theme.QuestBasicComposable_0131Theme
@@ -42,7 +43,8 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         modifier = Modifier.fillMaxSize()
     ){
         Text("Login",
-            style = TextStyle(fontSize = 50.sp,))
+            style = TextStyle(fontSize = 50.sp,
+            fontWeight = FontWeight.Bold))
     }
 }
 
