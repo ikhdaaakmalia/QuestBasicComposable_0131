@@ -52,7 +52,8 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         Text(text = "ini adalah halaman login")
         Image(painter = painterResource(id = R.drawable.umy), contentDescription = null,
             modifier = Modifier.padding(top = 30.dp). size(150.dp))
-        Text(text = "Nama :")
+        Text(text = "Nama :",
+            style = TextStyle(fontSize = 20.sp)
     }
 }
 
