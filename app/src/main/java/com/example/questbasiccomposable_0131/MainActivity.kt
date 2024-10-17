@@ -38,7 +38,9 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
-    ){}
+    ){
+        Text("Login")
+    }
 }
 
 @Preview(showBackground = true)
