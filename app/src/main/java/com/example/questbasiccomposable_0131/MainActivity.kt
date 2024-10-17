@@ -56,7 +56,8 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             style = TextStyle(fontSize = 20.sp,
                 fontWeight = FontWeight.Bold))
         Text(text = "IKHDA AKMALIA PUTRI",
-            style = TextStyle (fontSize = 15.sp)
+            style = TextStyle (fontSize = 15.sp,
+                color = androidx.compose.ui.graphics.Color.Red))
     }
 }
 
